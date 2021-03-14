@@ -5,8 +5,7 @@ public class Character{
     protected int armor;
     protected int atack;
 
-    //create a builder for character
-    public Character(boolean beast, int life, String name, int armor, int atack){
+    public Character(boolean beast, int life, String name, int armor, int atack){//create a builder for character
        this.beast = beast;
        this.life = life;
        this.name = name;
