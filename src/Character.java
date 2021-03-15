@@ -39,6 +39,5 @@ public class Character{
     public void setAtack(int atack){
         this.atack=atack;
     }
-
-    
+        
 }
