@@ -2,7 +2,6 @@
  * CreateCharacters
  */
 public class CreateCharacters {
-
     static Human human[] = new Human[5];
     static Elf elf[] = new Elf[5];
     static Hobbit hobbit[] = new Hobbit[5];
