@@ -404,13 +404,13 @@ public class Battle {
         + counterHero+" Ganadores\n"
         + "Ganadores en cada batalla son: \n");
         for (int k=0;k<=5;k++){
-            System.out.println("nombre"+CreateCharacters.winnerCharacter[k].getName());
+            System.out.println("nombre "+CreateCharacters.winnerCharacter[k].getName());
         }
         if(counterBeast>counterHero){
-            System.out.println("Esta simulacion la ganaron las bestias");
+            System.out.println("\nEsta simulacion la ganaron las bestias");
         }
         else{
-            System.out.println("Esta simulacion la ganaron los heroes");
+            System.out.println("\nEsta simulacion la ganaron los heroes");
         }
     }
 }
