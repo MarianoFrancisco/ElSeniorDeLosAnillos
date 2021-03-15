@@ -6,5 +6,4 @@ public class Hero extends Character{
     public Hero(int life, String name, int armor){
         super(false,life,name,armor,maximAtack);
     }
-    
 }
