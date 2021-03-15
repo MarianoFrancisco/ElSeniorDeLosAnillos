@@ -2,6 +2,7 @@
  * CreateCharacters
  */
 public class CreateCharacters {
+
     static Human human[] = new Human[2];
     static Elf elf[] = new Elf[2];
     static Hobbit hobbit[] = new Hobbit[2];
@@ -10,6 +11,7 @@ public class CreateCharacters {
     static Hero selectionHero[] = new Hero[6];
     static Beast selectionBeast[] = new Beast[6];
     static Character winnerCharacter[] = new Character[6];
+    
     public void createHero(){
          human[0] = new Human("Akihiro");
          human[1] = new Human("Tatzumy");
